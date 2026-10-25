@@ -1,0 +1,108 @@
+Business Analytics — question ids
+id	topic	level	question
+0	requirements-agile	E	What does a Business Analyst do?
+1	requirements-agile	E	BRD vs FRD?
+2	case-studies-guesstimates	M	Guesstimate: how many cars are sold in India every year?
+3	requirements-agile	M	Stakeholders give conflicting requirements. What do you do?
+4	requirements-agile	E	Write a user story with acceptance criteria for password reset.
+5	case-studies-guesstimates	H	Revenue grew but profit fell. Why could that happen?
+6	case-studies-guesstimates	E	KPI vs metric?
+7	requirements-agile	M	How would you prioritise 10 features with a limited budget?
+8	excel	M	Build a break-even analysis in Excel.
+9	case-studies-guesstimates	H	Should a food-delivery app launch in a new city?
+10	requirements-agile	E	What is gap analysis?
+11	requirements-agile	E	Agile vs Waterfall?
+12	requirements-agile	M	Use case vs user story?
+13	case-studies-guesstimates	E	Do a quick SWOT analysis for an ed-tech company.
+14	case-studies-guesstimates	M	How would you size the market for IT courses in Delhi NCR?
+15	case-studies-guesstimates	H	What is a KPI tree?
+16	excel	E	XLOOKUP vs VLOOKUP?
+17	excel	M	Which what-if analysis tools does Excel have?
+18	excel	M	How would you forecast next quarter's sales in Excel?
+19	sql	E	SQL: total revenue per month.
+20	sql	E	SQL: top 5 customers by spend.
+21	sql	H	SQL: month-over-month revenue growth.
+22	sql	M	How do you validate data before analysis?
+23	requirements-agile	M	Tell me about a time you handled a difficult stakeholder.
+24	requirements-agile	E	What are functional and non-functional requirements?
+25	requirements-agile	M	What techniques do you use to elicit requirements?
+26	requirements-agile	M	How do you prioritise requirements?
+27	requirements-agile	M	What is a user story and what makes it good?
+28	requirements-agile	M	What are acceptance criteria?
+29	requirements-agile	E	What is a use case diagram?
+30	requirements-agile	M	What is a traceability matrix?
+31	requirements-agile	M	How do you handle changing requirements?
+32	requirements-agile	E	What is Agile and how does Scrum work?
+33	requirements-agile	M	What is the role of a BA in Scrum?
+34	requirements-agile	M	What is a product backlog vs a sprint backlog?
+35	requirements-agile	M	What is a stakeholder analysis?
+36	requirements-agile	M	What is a SWOT analysis?
+37	requirements-agile	H	How do you manage conflicting requirements from two senior stakeholders?
+38	requirements-agile	M	What is a process flow and which tools do you use?
+39	requirements-agile	M	What is a RACI matrix?
+40	requirements-agile	H	What is root cause analysis and which techniques do you know?
+41	case-studies-guesstimates	E	How do you approach a guesstimate question?
+42	case-studies-guesstimates	M	Guesstimate: how many cups of tea are sold in Delhi per day?
+43	case-studies-guesstimates	M	A food delivery company's orders fell 15%. How do you investigate?
+44	case-studies-guesstimates	M	How would you estimate the market size for an electric scooter in India?
+45	case-studies-guesstimates	M	How would you decide whether to launch a new product?
+46	case-studies-guesstimates	M	What is the profit equation and how do you use it in cases?
+47	case-studies-guesstimates	M	A client's profits are falling. How do you structure the problem?
+48	case-studies-guesstimates	H	How would you price a new subscription product?
+49	case-studies-guesstimates	M	What is a break-even point?
+50	case-studies-guesstimates	M	How do you evaluate a marketing campaign's ROI?
+51	case-studies-guesstimates	M	Explain Porter's Five Forces.
+52	case-studies-guesstimates	M	What are the 4 Ps of marketing?
+53	case-studies-guesstimates	M	Guesstimate: how many pizzas are sold in Mumbai on a weekend?
+54	case-studies-guesstimates	H	A bank wants to reduce customer churn. What would you do?
+55	case-studies-guesstimates	M	What is customer lifetime value?
+56	case-studies-guesstimates	M	What is the 80/20 rule in business analysis?
+57	case-studies-guesstimates	M	What is a market entry strategy case?
+58	case-studies-guesstimates	H	How do you estimate the annual revenue of a coffee shop chain?
+59	case-studies-guesstimates	M	How would you improve a company's low app conversion rate?
+60	excel	E	Which Excel functions do business analysts use daily?
+61	excel	M	How do you build a PivotTable to analyse sales by region and product?
+62	excel	M	How would you build a simple financial model in Excel?
+63	excel	M	What is sensitivity analysis?
+64	excel	M	What is the difference between XLOOKUP and INDEX-MATCH?
+65	excel	E	How do you create a dashboard in Excel?
+66	excel	M	How do you analyse variance between budget and actual?
+67	excel	M	How do you use Excel's Scenario Manager?
+68	excel	M	What is Power Pivot?
+69	excel	M	How do you handle large datasets in Excel?
+70	excel	M	How do you compute CAGR in Excel?
+71	excel	M	What is the use of the IFERROR function?
+72	excel	M	How do you protect a worksheet or workbook?
+73	excel	M	How do you chart a trend with a target line?
+74	excel	M	What is a data table in Excel?
+75	sql	E	What is SQL and why do business analysts need it?
+76	sql	E	Difference between INNER JOIN and LEFT JOIN?
+77	sql	M	How do you find the top 5 customers by revenue?
+78	sql	M	How do you calculate monthly revenue growth in SQL?
+79	sql	M	How do you find duplicate customers?
+80	sql	M	What is a subquery and when would you use it?
+81	sql	M	What does GROUP BY do and how is HAVING different from WHERE?
+82	sql	M	How do you calculate the percentage contribution of each category?
+83	sql	M	How do you validate that a report's numbers are correct?
+84	sql	M	What is a CTE?
+85	sql	M	What is the difference between COUNT(*) and COUNT(column)?
+86	sql	M	How do you write a query to find users active in consecutive months?
+87	sql	E	What are aggregate functions?
+88	sql	M	How do you handle NULL values when calculating averages?
+89	requirements-agile	E	What is a stakeholder and who are the typical stakeholders in a project?
+90	requirements-agile	E	What is scope creep and how do you control it?
+91	requirements-agile	E	What is a Minimum Viable Product (MVP)?
+92	requirements-agile	M	What is a BRD review and who signs it off?
+93	requirements-agile	M	What is Kano model in prioritisation?
+94	requirements-agile	E	What are wireframes and why are they useful for a BA?
+95	case-studies-guesstimates	E	What is a KPI and give examples for an e-commerce business?
+96	case-studies-guesstimates	E	What is the difference between revenue and profit?
+97	case-studies-guesstimates	M	How would you analyse the declining sales of a retail store?
+98	case-studies-guesstimates	M	What are fixed costs and variable costs?
+99	excel	E	What is the difference between a chart and a dashboard?
+100	sql	E	What is the difference between SQL and Excel for analysis?
+101	sql	E	What is a primary key?
+102	requirements-agile	M	What is a feasibility study?
+103	case-studies-guesstimates	M	How would you measure the success of a new feature?
+104	excel	M	How do you build a forecast in Excel?
+105	sql	M	What is the difference between OLTP and OLAP systems?

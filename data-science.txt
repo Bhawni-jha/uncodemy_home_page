@@ -1,0 +1,113 @@
+Data Science — question ids
+id	topic	level	question
+0	machine-learning	M	What is the bias–variance trade-off?
+1	machine-learning	E	Explain precision vs recall. When would you prefer recall?
+2	machine-learning	M	Your dataset is highly imbalanced (2% positives). How do you handle it?
+3	machine-learning	E	What is the difference between bagging and boosting?
+4	python	M	Pandas: find the top 3 products by revenue in each region.
+5	machine-learning	M	What is regularization? Explain L1 vs L2.
+6	machine-learning	H	Train accuracy is 95% but test accuracy is 70%. What do you do?
+7	statistics	E	Explain p-value in simple words.
+8	machine-learning	H	Design an end-to-end churn prediction system.
+9	python	E	Write a function to calculate RMSE without any library.
+10	python	E	What is the difference between list, tuple, set and dict in Python?
+11	python	E	What are *args and **kwargs?
+12	python	M	Pandas: merge vs join vs concat?
+13	python	E	How do you handle missing values?
+14	statistics	M	What is the Central Limit Theorem?
+15	statistics	E	Type I vs Type II error?
+16	statistics	H	How do you design an A/B test?
+17	statistics	E	Correlation vs covariance?
+18	machine-learning	M	How does a decision tree decide where to split?
+19	machine-learning	E	What is cross-validation and why use it?
+20	machine-learning	M	What is gradient descent and what does the learning rate do?
+21	deep-learning-nlp	H	CNN vs RNN vs Transformer — what is the difference?
+22	deep-learning-nlp	M	What is TF-IDF?
+23	deep-learning-nlp	M	Why do we use activation functions? Why is ReLU popular?
+24	python	E	What are Python's main built-in data types?
+25	python	E	How do list comprehensions work and why use them?
+26	python	M	What is a generator and when would you use one?
+27	python	M	Difference between a shallow copy and a deep copy?
+28	python	M	What are decorators in Python?
+29	python	E	What is the difference between == and is?
+30	python	E	Difference between loc and iloc in Pandas?
+31	python	M	How do you use groupby with multiple aggregations?
+32	python	E	What is NumPy broadcasting?
+33	python	M	Why are NumPy arrays faster than Python lists?
+34	python	H	How would you optimise a slow Pandas pipeline on a 5 GB file?
+35	python	M	What is the Global Interpreter Lock (GIL)?
+36	python	M	What is the difference between apply, map and applymap in Pandas?
+37	python	E	How do you remove duplicates from a DataFrame?
+38	python	E	What is the difference between a set and a dictionary?
+39	python	M	How do you pivot data in Pandas?
+40	statistics	E	What is the difference between mean, median and mode?
+41	statistics	E	What is standard deviation and what does it tell you?
+42	statistics	E	What is a normal distribution?
+43	statistics	M	What is a p-value?
+44	statistics	M	What is a confidence interval?
+45	statistics	M	Explain the chi-square test.
+46	statistics	M	What is correlation and why does it not imply causation?
+47	statistics	E	Pearson vs Spearman correlation?
+48	statistics	M	How do you detect outliers?
+49	statistics	M	Explain Bayes' theorem with an example.
+50	statistics	H	What is multicollinearity and how do you handle it?
+51	statistics	E	What is skewness?
+52	statistics	M	Explain the Law of Large Numbers.
+53	statistics	M	What is sampling bias and how can you reduce it?
+54	statistics	H	What is the difference between Bayesian and frequentist approaches?
+55	statistics	E	What is a Poisson distribution used for?
+56	machine-learning	E	What is the difference between supervised and unsupervised learning?
+57	machine-learning	E	What is overfitting and how do you prevent it?
+58	machine-learning	E	Explain train, validation and test sets.
+59	machine-learning	M	How does linear regression work and what are its assumptions?
+60	machine-learning	M	Explain logistic regression.
+61	machine-learning	M	L1 vs L2 regularisation?
+62	machine-learning	M	Random forest vs a single decision tree?
+63	machine-learning	M	Why is XGBoost so popular?
+64	machine-learning	M	How does K-means clustering work and how do you choose k?
+65	machine-learning	M	How do you handle imbalanced classes?
+66	machine-learning	E	What is a confusion matrix?
+67	machine-learning	M	Explain ROC curve and AUC.
+68	machine-learning	M	What is feature scaling and which models need it?
+69	machine-learning	M	What is PCA and when do you use it?
+70	machine-learning	M	How do you perform feature selection?
+71	machine-learning	E	What is data leakage?
+72	machine-learning	M	How do you tune hyperparameters?
+73	machine-learning	M	What are precision and recall trade-offs in practice?
+74	machine-learning	H	How would you build a churn prediction model end to end?
+75	machine-learning	M	Explain the KNN algorithm and its drawbacks.
+76	machine-learning	M	What is SVM and the kernel trick?
+77	machine-learning	H	What is the difference between generative and discriminative models?
+78	machine-learning	H	How do you evaluate and explain a model to business stakeholders?
+79	machine-learning	M	How do you detect and treat concept drift?
+80	machine-learning	E	What is the difference between regression and classification?
+81	machine-learning	M	What is Naive Bayes and why is it called naive?
+82	deep-learning-nlp	E	What is a neural network?
+83	deep-learning-nlp	M	What is backpropagation?
+84	deep-learning-nlp	M	What is the vanishing gradient problem?
+85	deep-learning-nlp	M	How does dropout work?
+86	deep-learning-nlp	M	What is batch normalisation?
+87	deep-learning-nlp	M	How does a CNN work?
+88	deep-learning-nlp	M	What are RNNs and why did LSTMs improve them?
+89	deep-learning-nlp	M	What is the attention mechanism?
+90	deep-learning-nlp	H	How do transformers differ from RNNs?
+91	deep-learning-nlp	E	What is tokenisation in NLP?
+92	deep-learning-nlp	M	What is transfer learning?
+93	deep-learning-nlp	M	Which activation functions do you know and when to use them?
+94	deep-learning-nlp	H	How would you fine-tune a pretrained language model for classification?
+95	deep-learning-nlp	M	What are common ways to evaluate NLP models?
+96	deep-learning-nlp	H	What is a RAG system and why use it?
+97	python	M	What is the difference between iterators and iterables in Python?
+98	python	M	How do you profile and speed up slow Python code?
+99	python	E	What is the difference between a function and a method?
+100	python	M	What are lambda functions and where are they useful?
+101	statistics	M	What is the difference between parametric and non-parametric tests?
+102	statistics	M	What is statistical power and how can you increase it?
+103	machine-learning	M	What is calibration of a classifier?
+104	machine-learning	M	How does the Gini impurity differ from entropy?
+105	machine-learning	M	What is stacking in ensemble learning?
+106	machine-learning	M	How do you deal with high-cardinality categorical features?
+107	machine-learning	H	How do you deploy and monitor a machine learning model?
+108	deep-learning-nlp	M	What is the difference between an epoch, a batch and an iteration?
+109	deep-learning-nlp	M	How do you choose a learning rate for a neural network?
+110	deep-learning-nlp	M	What is an autoencoder and what is it used for?

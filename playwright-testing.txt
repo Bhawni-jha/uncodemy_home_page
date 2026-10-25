@@ -1,0 +1,112 @@
+Playwright Testing — question ids
+id	topic	level	question
+0	playwright-core	M	Why choose Playwright over Selenium?
+1	playwright-core	E	What is auto-waiting in Playwright?
+2	playwright-core	E	Write a test that logs in and checks the dashboard heading.
+3	api-testing	M	How do you mock an API response?
+4	framework-ci-cd	M	What are fixtures in Playwright?
+5	framework-ci-cd	H	Tests are flaky in CI. How do you debug them?
+6	framework-ci-cd	M	How do you reuse login state across tests?
+7	playwright-core	E	Locator vs ElementHandle?
+8	framework-ci-cd	E	How do you run tests on three browsers in parallel?
+9	framework-ci-cd	H	Design a Playwright framework for a 500-test suite.
+10	javascript-typescript	E	let vs const vs var?
+11	javascript-typescript	E	What is async/await?
+12	javascript-typescript	M	What happens if you forget an await?
+13	javascript-typescript	M	interface vs type in TypeScript?
+14	playwright-core	E	How do you handle a new tab?
+15	playwright-core	E	How do you work with iframes?
+16	playwright-core	M	What are soft assertions?
+17	playwright-core	M	How do you test a file download?
+18	framework-ci-cd	E	How do you write a Page Object in Playwright?
+19	api-testing	M	Write an API test with the request fixture.
+20	api-testing	H	How do you create test data through the API before a UI test?
+21	playwright-core	M	How does visual testing work in Playwright?
+22	framework-ci-cd	M	How do you run Playwright in GitHub Actions?
+23	framework-ci-cd	E	How do you run only smoke tests?
+24	javascript-typescript	E	What is the difference between TypeScript and JavaScript?
+25	javascript-typescript	E	What are the main data types in JavaScript?
+26	javascript-typescript	M	What are closures?
+27	javascript-typescript	M	What is hoisting?
+28	javascript-typescript	M	Explain the event loop.
+29	javascript-typescript	M	Promise.all vs Promise.allSettled vs Promise.race?
+30	javascript-typescript	E	What are arrow functions?
+31	javascript-typescript	M	What is destructuring and the spread operator?
+32	javascript-typescript	M	What are interfaces and types in TypeScript?
+33	javascript-typescript	M	What are generics in TypeScript?
+34	javascript-typescript	E	How do you handle errors in async code?
+35	javascript-typescript	M	What is the difference between map, filter and reduce?
+36	javascript-typescript	M	What is the difference between null and undefined?
+37	javascript-typescript	M	What does the optional chaining operator do?
+38	javascript-typescript	H	How would you type the response of an API call in TypeScript?
+39	playwright-core	E	What is Playwright and which browsers does it support?
+40	playwright-core	E	How do you install and start a Playwright project?
+41	playwright-core	M	Which locators does Playwright recommend?
+42	playwright-core	M	What is the difference between page, context and browser?
+43	playwright-core	M	How do you handle multiple tabs or pop-ups?
+44	playwright-core	M	How do you handle iframes in Playwright?
+45	playwright-core	M	How do you handle file uploads and downloads?
+46	playwright-core	M	How do you handle dialogs such as alerts?
+47	playwright-core	M	What are web-first assertions?
+48	playwright-core	M	How does Playwright's trace viewer help?
+49	playwright-core	M	How do you take screenshots and videos?
+50	playwright-core	M	How do you mock network requests?
+51	playwright-core	M	How do you run tests on mobile viewports?
+52	playwright-core	M	How do you handle authentication to avoid logging in every test?
+53	playwright-core	M	What is codegen?
+54	playwright-core	M	How do you debug a Playwright test?
+55	playwright-core	M	What is the difference between waitForSelector and expect with locator?
+56	playwright-core	M	How do you perform drag and drop and hover?
+57	playwright-core	M	How do you test geolocation, permissions and time zones?
+58	playwright-core	M	How do you handle shadow DOM?
+59	playwright-core	H	How would you handle a very flaky element that appears after an animation?
+60	playwright-core	M	What is the difference between click and dispatchEvent?
+61	framework-ci-cd	M	What are fixtures and how do you create a custom one?
+62	framework-ci-cd	M	How do you run tests in parallel and control workers?
+63	framework-ci-cd	M	What are projects in playwright.config?
+64	framework-ci-cd	M	How do you organise tests with page object model in Playwright?
+65	framework-ci-cd	M	How do retries work?
+66	framework-ci-cd	M	How do you tag and filter tests?
+67	framework-ci-cd	M	What reporters does Playwright provide?
+68	framework-ci-cd	M	How do you shard tests across machines?
+69	framework-ci-cd	M	How do you manage test data and environments?
+70	framework-ci-cd	M	What is the difference between beforeEach and fixtures?
+71	framework-ci-cd	M	How do you run tests in Docker?
+72	framework-ci-cd	M	How do you do visual regression testing?
+73	framework-ci-cd	M	How do you set test timeouts?
+74	framework-ci-cd	M	How does Playwright compare with Selenium and Cypress?
+75	framework-ci-cd	H	How would you structure a large Playwright framework for a team?
+76	framework-ci-cd	H	How do you reduce the execution time of a 2000-test suite?
+77	api-testing	E	How do you make an API request in Playwright?
+78	api-testing	M	How do you send a POST request with a JSON body?
+79	api-testing	M	How do you validate an API response in Playwright?
+80	api-testing	M	How do you send authentication headers?
+81	api-testing	M	How do you combine API and UI tests?
+82	api-testing	M	How do you test API error scenarios?
+83	api-testing	M	What is APIRequestContext?
+84	api-testing	M	How do you share cookies between API login and UI?
+85	api-testing	M	How do you validate JSON schema?
+86	api-testing	M	How do you test pagination or chained API calls?
+87	api-testing	M	How do you mock third-party APIs in UI tests?
+88	api-testing	M	How do you handle rate limits or slow APIs in tests?
+89	api-testing	M	How do you measure API response time?
+90	api-testing	H	How would you design API test coverage for a new endpoint?
+91	api-testing	M	How do you test file upload via API?
+92	api-testing	M	How do you handle GraphQL APIs in Playwright?
+93	javascript-typescript	E	What is npm and package.json?
+94	playwright-core	E	What is a locator in Playwright?
+95	playwright-core	E	How do you run a single test or file in Playwright?
+96	api-testing	E	What is the difference between API testing and UI testing?
+97	javascript-typescript	M	What is the difference between a type and an enum in TypeScript?
+98	javascript-typescript	M	What are higher-order functions?
+99	javascript-typescript	M	What is the difference between synchronous and asynchronous code?
+100	javascript-typescript	M	What are template literals?
+101	playwright-core	M	How do you use test.step and test annotations?
+102	playwright-core	M	How do you handle date pickers and custom dropdowns?
+103	playwright-core	M	How do you wait for a network response in Playwright?
+104	playwright-core	M	How do you test file downloads and verify their content?
+105	framework-ci-cd	M	How do you structure environment-specific configs in Playwright?
+106	framework-ci-cd	M	How do you integrate Playwright with Allure or other reports?
+107	framework-ci-cd	M	How do you test accessibility with Playwright?
+108	framework-ci-cd	M	What are global setup and teardown?
+109	api-testing	M	How do you handle token refresh in long API test runs?

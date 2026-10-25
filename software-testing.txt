@@ -1,0 +1,114 @@
+Software Testing — question ids
+id	topic	level	question
+0	bug-life-cycle-jira	E	Severity vs priority — with an example.
+1	bug-life-cycle-jira	E	Explain the bug life cycle.
+2	test-cases-design	E	Write test cases for a login page.
+3	test-cases-design	E	What are the boundary values for an age field that accepts 18–60?
+4	manual-testing-basics	E	Smoke vs sanity testing?
+5	bug-life-cycle-jira	M	The developer says "it's not a bug". What do you do?
+6	manual-testing-basics	H	Release is tomorrow and you can't test everything. What now?
+7	manual-testing-basics	M	What is regression testing, and when do you automate it?
+8	agile-sql-api	M	Write SQL to verify an order was saved correctly.
+9	test-cases-design	H	How would you test a payment gateway?
+10	manual-testing-basics	E	Verification vs validation?
+11	manual-testing-basics	E	Functional vs non-functional testing?
+12	manual-testing-basics	M	What goes into a test plan?
+13	test-cases-design	E	Give an example of equivalence partitioning.
+14	test-cases-design	E	Write test cases for a lift (elevator).
+15	test-cases-design	M	What is decision table testing?
+16	bug-life-cycle-jira	E	What makes a good bug report?
+17	bug-life-cycle-jira	M	A bug is not reproducible. What next?
+18	agile-sql-api	M	Scrum ceremonies and the tester's role?
+19	manual-testing-basics	E	What is UAT?
+20	agile-sql-api	M	What do you check when testing an API in Postman?
+21	agile-sql-api	M	SQL: find duplicate emails.
+22	manual-testing-basics	H	How do you estimate testing effort?
+23	test-cases-design	M	What is exploratory testing?
+24	manual-testing-basics	E	What is software testing and why is it needed?
+25	manual-testing-basics	E	What is SDLC and STLC?
+26	manual-testing-basics	E	What are the levels of testing?
+27	manual-testing-basics	E	Difference between black box, white box and grey box testing?
+28	manual-testing-basics	E	What is the difference between alpha and beta testing?
+29	manual-testing-basics	M	What are the seven principles of testing?
+30	manual-testing-basics	E	What is a test plan and what does it contain?
+31	manual-testing-basics	M	What are entry and exit criteria?
+32	manual-testing-basics	M	What is usability testing?
+33	manual-testing-basics	M	What is compatibility testing?
+34	manual-testing-basics	M	What is performance testing and its types?
+35	manual-testing-basics	M	What is the difference between static and dynamic testing?
+36	manual-testing-basics	E	What is a test environment?
+37	manual-testing-basics	M	What is risk-based testing?
+38	test-cases-design	E	What is a test case and its components?
+39	test-cases-design	E	What is the difference between a test case and a test scenario?
+40	test-cases-design	M	What is boundary value analysis?
+41	test-cases-design	M	What is state transition testing?
+42	test-cases-design	M	What is use case testing?
+43	test-cases-design	M	Write test cases for an ATM withdrawal.
+44	test-cases-design	M	Write test cases for a search box.
+45	test-cases-design	M	Write test cases for a file upload feature.
+46	test-cases-design	M	What is error guessing?
+47	test-cases-design	M	How do you decide the priority of test cases?
+48	test-cases-design	M	What is test coverage and how do you measure it?
+49	test-cases-design	M	What is a traceability matrix?
+50	test-cases-design	M	What are positive and negative test cases?
+51	test-cases-design	M	What are test data and how do you prepare them?
+52	test-cases-design	H	How would you test a login page for security?
+53	test-cases-design	H	How do you test an application with no documentation?
+54	test-cases-design	M	What is the difference between a test suite and a test run?
+55	test-cases-design	M	What are the characteristics of a good test case?
+56	bug-life-cycle-jira	E	What is the difference between an error, a defect and a failure?
+57	bug-life-cycle-jira	M	What are severity and priority? Give examples.
+58	bug-life-cycle-jira	M	What is defect leakage?
+59	bug-life-cycle-jira	M	What is defect density?
+60	bug-life-cycle-jira	M	What is defect clustering?
+61	bug-life-cycle-jira	M	How do you use JIRA in testing?
+62	bug-life-cycle-jira	M	What is JQL?
+63	bug-life-cycle-jira	M	What is the difference between a story, epic, task and bug in JIRA?
+64	bug-life-cycle-jira	M	How do you handle a bug found late in a release cycle?
+65	bug-life-cycle-jira	M	What is a blocker bug?
+66	bug-life-cycle-jira	M	What metrics do QA teams track?
+67	bug-life-cycle-jira	M	What is a bug triage meeting?
+68	bug-life-cycle-jira	M	What is root cause analysis for defects?
+69	bug-life-cycle-jira	H	Production has a critical bug. What are your steps?
+70	bug-life-cycle-jira	H	How do you reduce the number of defects slipping into production?
+71	agile-sql-api	E	What is Agile testing?
+72	agile-sql-api	M	What is the definition of done?
+73	agile-sql-api	M	What is a sprint retrospective?
+74	agile-sql-api	M	What is the testing pyramid?
+75	agile-sql-api	E	What is SQL and why do testers use it?
+76	agile-sql-api	M	How do you test database integrity using SQL?
+77	agile-sql-api	M	Write a SQL query to find duplicate records.
+78	agile-sql-api	M	Explain SQL joins briefly.
+79	agile-sql-api	M	What is the difference between DELETE and TRUNCATE?
+80	agile-sql-api	M	What is API testing and why is it important?
+81	agile-sql-api	M	How do you test an API using Postman?
+82	agile-sql-api	M	What are common HTTP status codes?
+83	agile-sql-api	M	What is the difference between GET and POST?
+84	agile-sql-api	M	What is a REST API?
+85	agile-sql-api	M	What is CI/CD and how does testing fit?
+86	agile-sql-api	M	What is the difference between smoke testing in CI and full regression?
+87	agile-sql-api	H	How do you test a REST API that is not ready yet?
+88	agile-sql-api	M	What is mobile app testing and what extra checks does it need?
+89	manual-testing-basics	E	What is a test scenario for the login functionality at a high level?
+90	manual-testing-basics	M	What is the V-model?
+91	manual-testing-basics	M	What is configuration testing?
+92	manual-testing-basics	E	What is a test closure report?
+93	manual-testing-basics	M	What is localisation and internationalisation testing?
+94	manual-testing-basics	M	What is accessibility testing?
+95	test-cases-design	M	Write test cases for a shopping cart.
+96	test-cases-design	M	Write test cases for a signup form.
+97	test-cases-design	M	Write test cases for an online money transfer.
+98	test-cases-design	M	Write test cases for a calculator app.
+99	test-cases-design	M	What is pairwise testing?
+100	test-cases-design	M	How do you review test cases?
+101	test-cases-design	M	How do you test an application when requirements change frequently?
+102	bug-life-cycle-jira	M	How do you write a good bug title?
+103	bug-life-cycle-jira	M	What is a hotfix?
+104	bug-life-cycle-jira	M	What is the difference between a bug and an enhancement?
+105	bug-life-cycle-jira	M	What are the typical JIRA workflows for bugs?
+106	agile-sql-api	M	What is a sprint planning meeting and what does QA contribute?
+107	agile-sql-api	M	What is TDD vs BDD?
+108	agile-sql-api	M	How do you test a REST API with authentication?
+109	agile-sql-api	M	What are SQL constraints?
+110	agile-sql-api	M	What is the use of SQL GROUP BY and HAVING in test validation?
+111	agile-sql-api	M	How do you test pagination, sorting and filtering through an API?

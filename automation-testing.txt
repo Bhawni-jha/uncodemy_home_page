@@ -1,0 +1,111 @@
+Automation Testing — question ids
+id	topic	level	question
+0	selenium	E	Implicit vs explicit vs fluent wait?
+1	testng-framework	E	What is the Page Object Model?
+2	selenium	M	How do you handle StaleElementReferenceException?
+3	selenium	E	Write an XPath for a button with the text "Login".
+4	testng-framework	M	How do you run tests in parallel?
+5	api-testing-ci-cd	H	Tests pass locally but fail on Jenkins. Why?
+6	selenium	M	How do you handle a dropdown that is not a <select> tag?
+7	testng-framework	E	What is the execution order of TestNG annotations?
+8	testng-framework	H	How would you design an automation framework from scratch?
+9	testng-framework	M	How do you take a screenshot on failure in TestNG?
+10	java	E	Method overloading vs overriding?
+11	java	M	Where do you use OOP concepts in your framework?
+12	java	E	ArrayList vs HashMap — how do you use them in a framework?
+13	java	E	Reverse a string in Java.
+14	java	E	String vs StringBuilder?
+15	selenium	E	findElement vs findElements?
+16	selenium	M	How do you handle multiple windows?
+17	selenium	M	How do you upload a file with Selenium?
+18	testng-framework	M	What is a DataProvider in TestNG?
+19	api-testing-ci-cd	E	Common HTTP status codes?
+20	api-testing-ci-cd	M	Write a GET test in REST Assured.
+21	api-testing-ci-cd	M	POST vs PUT vs PATCH?
+22	testng-framework	H	How do you decide what to automate?
+23	api-testing-ci-cd	H	Explain your CI/CD pipeline for tests.
+24	java	E	What are the main OOP concepts in Java?
+25	java	E	Difference between an abstract class and an interface?
+26	java	E	What is the difference between == and equals() in Java?
+27	java	M	What are Java collections and which ones do testers use most?
+28	java	M	Difference between ArrayList and LinkedList?
+29	java	M	How does HashMap work internally?
+30	java	E	What are exceptions and how do you handle them?
+31	java	E	Difference between final, finally and finalize?
+32	java	M	What is the difference between static and non-static members?
+33	java	M	What are access modifiers in Java?
+34	java	M	What is method overriding and where is it useful in frameworks?
+35	java	M	What is the use of the this and super keywords?
+36	java	M	What is a constructor and can it be overloaded?
+37	java	M	What are Java 8 streams and lambdas?
+38	java	M	How do you read data from Excel or properties files in Java?
+39	java	M	What is the difference between throw and throws?
+40	selenium	E	What is Selenium and what are its components?
+41	selenium	E	What locators does Selenium support?
+42	selenium	M	Difference between absolute and relative XPath?
+43	selenium	M	How do you handle dropdowns in Selenium?
+44	selenium	M	How do you handle alerts and pop-ups?
+45	selenium	M	How do you switch between windows and tabs?
+46	selenium	M	How do you handle iframes?
+47	selenium	M	What are the Actions class use cases?
+48	selenium	M	What is the difference between driver.close() and driver.quit()?
+49	selenium	M	How do you run JavaScript in Selenium?
+50	selenium	M	How do you handle dynamic elements whose ids change?
+51	selenium	M	What is Selenium Grid and why use it?
+52	selenium	M	How do you handle a test that is flaky only in headless mode?
+53	selenium	M	What is the difference between getText() and getAttribute()?
+54	selenium	M	How do you verify that an element is displayed, enabled or selected?
+55	selenium	H	How would you automate a login flow with multiple user roles?
+56	selenium	H	How do you handle a website that uses CAPTCHA?
+57	testng-framework	E	What is TestNG and why is it used with Selenium?
+58	testng-framework	E	List common TestNG annotations and their order.
+59	testng-framework	M	How does the DataProvider annotation work?
+60	testng-framework	M	What is the difference between hard and soft assertions?
+61	testng-framework	M	What does dependsOnMethods do?
+62	testng-framework	M	How do you retry failed tests in TestNG?
+63	testng-framework	M	What are listeners in TestNG?
+64	testng-framework	M	How do you group tests?
+65	testng-framework	M	What is PageFactory?
+66	testng-framework	M	What is the Hybrid framework?
+67	testng-framework	M	What is data-driven testing?
+68	testng-framework	M	Which reporting tools do you use?
+69	testng-framework	M	What is BDD and how does Cucumber work?
+70	testng-framework	M	How do you manage test data in a framework?
+71	testng-framework	M	What is the use of Maven in automation projects?
+72	testng-framework	H	How do you calculate automation ROI?
+73	api-testing-ci-cd	E	What is an API and what are common HTTP methods?
+74	api-testing-ci-cd	E	What do HTTP status codes 200, 201, 400, 401, 403, 404 and 500 mean?
+75	api-testing-ci-cd	M	What is REST Assured?
+76	api-testing-ci-cd	M	How do you validate a JSON response in REST Assured?
+77	api-testing-ci-cd	M	How do you pass authentication in an API test?
+78	api-testing-ci-cd	M	What is Postman and how do you automate with it?
+79	api-testing-ci-cd	M	What is the difference between SOAP and REST?
+80	api-testing-ci-cd	M	What is CI/CD and why does automation need it?
+81	api-testing-ci-cd	M	How do you integrate Selenium tests with Jenkins?
+82	api-testing-ci-cd	M	What is a Jenkins pipeline?
+83	api-testing-ci-cd	M	What is Docker and how does it help tests?
+84	api-testing-ci-cd	M	What are the advantages of version control for test code?
+85	api-testing-ci-cd	M	How do you test an API that depends on another service that is down?
+86	api-testing-ci-cd	M	What is contract testing?
+87	api-testing-ci-cd	H	How would you design a CI pipeline for nightly regression?
+88	api-testing-ci-cd	M	How do you handle environment-specific configuration?
+89	api-testing-ci-cd	H	How do you reduce flakiness in a CI pipeline?
+90	java	E	What are wrapper classes in Java?
+91	selenium	E	What is WebDriver and how does it communicate with the browser?
+92	testng-framework	E	What is the purpose of testng.xml?
+93	api-testing-ci-cd	E	What is JSON and how is it used in API testing?
+94	java	M	What is the difference between Comparable and Comparator in Java?
+95	java	M	What is the difference between an array and an ArrayList?
+96	java	M	What is polymorphism and how does it show up in Selenium?
+97	java	M	What are try-with-resources and why use them?
+98	selenium	M	How do you handle a web table in Selenium?
+99	selenium	M	What are the different types of waits in Selenium?
+100	selenium	M	How do you scroll a page in Selenium?
+101	selenium	M	What new features came with Selenium 4?
+102	selenium	M	What are relative locators in Selenium 4?
+103	testng-framework	M	How do you pass parameters from testng.xml?
+104	testng-framework	M	What is the difference between @BeforeTest and @BeforeMethod?
+105	testng-framework	M	How do you make WebDriver thread-safe for parallel runs?
+106	api-testing-ci-cd	M	How do you verify response time and headers in REST Assured?
+107	api-testing-ci-cd	M	What is OAuth 2.0 in API testing?
+108	api-testing-ci-cd	M	What is a webhook and how do you test it?

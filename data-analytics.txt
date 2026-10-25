@@ -1,0 +1,106 @@
+Data Analytics — question ids
+id	topic	level	question
+0	sql	E	What is the difference between WHERE and HAVING?
+1	sql	E	Find the second highest salary in SQL.
+2	sql	M	RANK vs DENSE_RANK vs ROW_NUMBER?
+3	statistics-case-studies	M	Sales dropped 20% last month. How will you analyse it?
+4	excel	E	VLOOKUP vs INDEX-MATCH vs XLOOKUP?
+5	sql	M	Write SQL for a running total of sales by date.
+6	python	E	How do you deal with missing or duplicate data?
+7	statistics-case-studies	M	Which KPIs would you track for an e-commerce app?
+8	power-bi	H	Design a dashboard for CXOs — what principles do you follow?
+9	sql	H	Find customers who ordered in January but not in February.
+10	excel	E	What is a pivot table and when do you use it?
+11	excel	E	SUMIFS vs COUNTIFS?
+12	excel	M	How do you remove duplicates in Excel but keep the latest record?
+13	sql	E	INNER JOIN vs LEFT JOIN — with an example.
+14	sql	M	What is a CTE and when would you use one?
+15	power-bi	M	DAX: calculated column vs measure?
+16	power-bi	M	What is a star schema?
+17	power-bi	H	What does CALCULATE do in DAX?
+18	python	E	Show a Pandas groupby example.
+19	python	M	How do you detect outliers?
+20	statistics-case-studies	H	Explain funnel analysis.
+21	statistics-case-studies	E	Mean vs median vs mode — when do you use which?
+22	statistics-case-studies	M	How do you present insights to non-technical stakeholders?
+23	excel	E	What is data validation in Excel?
+24	excel	E	How do you remove duplicates in Excel?
+25	excel	M	What is a PivotTable and when do you use it?
+26	excel	M	Explain INDEX and MATCH together.
+27	excel	E	What is the difference between COUNT, COUNTA and COUNTIF?
+28	excel	M	How do SUMIFS and SUMPRODUCT differ?
+29	excel	E	What is conditional formatting?
+30	excel	M	What are absolute and relative cell references?
+31	excel	M	How do you clean messy text data in Excel?
+32	excel	M	What is Power Query and why is it useful?
+33	excel	M	What is the difference between a table and a normal range?
+34	excel	M	How do you create a dynamic dashboard in Excel?
+35	excel	E	What does the IF function do and how do you nest it?
+36	excel	H	How would you reconcile two large lists in Excel?
+37	excel	M	What is the difference between Goal Seek and Solver?
+38	excel	M	How do you handle errors like #N/A and #DIV/0!?
+39	sql	E	Explain the types of SQL joins.
+40	sql	E	What is a primary key vs a foreign key?
+41	sql	M	Difference between UNION and UNION ALL?
+42	sql	M	What is a window function?
+43	sql	M	What is a CTE and why use it?
+44	sql	M	Difference between a CTE, a subquery and a temp table?
+45	sql	M	How do you find duplicate rows in a table?
+46	sql	M	What is normalisation?
+47	sql	M	What are indexes and when can they hurt?
+48	sql	M	How do you calculate month-over-month growth?
+49	sql	M	How do you calculate a running total?
+50	sql	M	How would you find customers who never placed an order?
+51	sql	E	What is the difference between DELETE, TRUNCATE and DROP?
+52	sql	M	How are NULLs handled in SQL?
+53	sql	H	How do you optimise a slow SQL query?
+54	sql	M	What is a self join and when is it used?
+55	sql	M	Explain GROUP BY with an example.
+56	sql	H	How would you calculate retention using SQL?
+57	sql	M	What is the difference between a view and a materialised view?
+58	sql	M	What does CASE WHEN do?
+59	power-bi	E	What is Power BI and its main components?
+60	power-bi	M	What is DAX and how does it differ from Excel formulas?
+61	power-bi	M	Explain row context and filter context.
+62	power-bi	M	What does the CALCULATE function do?
+63	power-bi	M	Import mode vs DirectQuery?
+64	power-bi	M	What are relationships and cardinality in Power BI?
+65	power-bi	M	What is Row-Level Security?
+66	power-bi	M	How do you improve Power BI report performance?
+67	power-bi	E	What are slicers and filters?
+68	power-bi	M	What is Power Query's role in Power BI?
+69	power-bi	M	Explain time intelligence functions.
+70	power-bi	M	What is the difference between a dashboard and a report?
+71	power-bi	H	How would you design a sales dashboard for executives?
+72	power-bi	M	What is a gateway in Power BI?
+73	python	E	Which Python libraries do analysts use most?
+74	python	E	How do you read a CSV and inspect it in Pandas?
+75	python	M	How do you handle outliers in Pandas?
+76	python	M	How do you merge two DataFrames on different column names?
+77	python	M	How do you create a new column from conditions?
+78	python	M	How do you change data types and parse dates?
+79	python	M	How do you calculate a rolling average?
+80	python	M	Explain Matplotlib vs Seaborn.
+81	python	E	How do you choose the right chart?
+82	python	M	What is the difference between melt and pivot?
+83	python	H	How would you automate a weekly report with Python?
+84	python	M	How do you connect Python to a SQL database?
+85	python	M	What is vectorisation and why does it matter?
+86	python	M	How do you detect and handle skewed data?
+87	statistics-case-studies	E	What is descriptive vs inferential statistics?
+88	statistics-case-studies	E	What is the difference between population and sample?
+89	statistics-case-studies	M	What is hypothesis testing in simple words?
+90	statistics-case-studies	M	How do you decide the sample size for a survey?
+91	statistics-case-studies	M	Explain correlation vs regression.
+92	statistics-case-studies	M	How would you investigate a sudden 20% drop in daily sales?
+93	statistics-case-studies	M	How do you define and choose KPIs?
+94	statistics-case-studies	H	A marketing campaign shows more sales. How do you prove it worked?
+95	statistics-case-studies	M	What is cohort analysis?
+96	statistics-case-studies	M	How do you handle a dataset with 30% missing values in a key column?
+97	statistics-case-studies	H	How would you segment customers?
+98	statistics-case-studies	M	What is the difference between mean and median for reporting salaries?
+99	statistics-case-studies	M	What is statistical significance vs practical significance?
+100	excel	M	What is the difference between a calculated field and a helper column in Excel?
+101	sql	M	What is the difference between a clustered and a non-clustered index?
+102	power-bi	M	What are bookmarks and drill-through in Power BI?
+103	python	M	How do you handle large CSV files that do not fit in memory in Python?

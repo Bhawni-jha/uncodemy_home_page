@@ -1,0 +1,507 @@
+      /* ===================== UC UPDATE: requested changes ===================== */
+
+      /* --- logos: self-contained SVG badges (no external requests) --- */
+      .colo[data-co] {
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+      }
+      .colo[data-co] b,
+      .colo[data-co] img {
+        display: none;
+      }
+      .colo.xs[data-co] {
+        border: 2px solid #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+      }
+      .colo.xl,
+      .colo.xxl {
+        border-radius: 12px;
+      }
+      .colo.xxl {
+        --s: 52px;
+      }
+      .colo.xl {
+        --s: 44px;
+      }
+      .ph-co {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        min-width: 0;
+      }
+      .ph-co > div {
+        min-width: 0;
+      }
+      .ci svg,
+      .res-ic svg,
+      .qlink .ic svg {
+        flex-shrink: 0;
+      }
+      .ci,
+      .qlink .ic,
+      .res-ic {
+        line-height: 0;
+      }
+
+      /* --- dashboard "Explore" cards: text must stay inside the card --- */
+      .qgrid {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+      }
+      .qlink {
+        min-width: 0;
+        overflow: hidden;
+      }
+      .qlink > span:last-child {
+        min-width: 0;
+        flex: 1;
+      }
+      .qlink small,
+      small.co-line {
+        overflow-wrap: anywhere;
+        word-break: normal;
+      }
+      small.co-line {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        white-space: normal;
+        gap: 2px 0;
+        line-height: 1.45;
+      }
+      .co-line .colo-stack {
+        margin-right: 8px;
+      }
+
+      /* --- Back / Back-to-home buttons (every page) --- */
+      .pg-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 16px;
+      }
+      .pn-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 9px 16px;
+        border-radius: 12px;
+        border: 1px solid #e2e2e8;
+        background: #fff;
+        color: var(--ink-2);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        cursor: pointer;
+        box-shadow: 0 2px 0 #ececf1;
+        transition:
+          border-color 0.15s,
+          color 0.15s,
+          transform 0.08s;
+      }
+      .pn-btn:hover {
+        border-color: var(--brand);
+        color: var(--brand-2);
+      }
+      .pn-btn:active {
+        transform: translateY(1px);
+      }
+      .pn-btn.home {
+        background: var(--brand);
+        border-color: var(--brand);
+        color: #fff;
+        box-shadow: 0 2px 0 var(--brand-2);
+      }
+      .pn-btn.home:hover {
+        background: var(--brand-2);
+        color: #fff;
+      }
+      .pn-btn svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      /* --- Sign up / Log in (green) in header --- */
+      .btn-green {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 10px 18px;
+        border-radius: 12px;
+        background: var(--green);
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.2;
+        white-space: nowrap;
+        box-shadow: 0 3px 0 #149653;
+        transition:
+          background 0.15s,
+          transform 0.08s;
+      }
+      .btn-green:hover {
+        background: #17a85c;
+      }
+      .btn-green:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 0 #149653;
+      }
+      body[data-page="hub"] .btn-green {
+        box-shadow: none;
+        background: var(--green);
+      }
+      .auth-tabs {
+        display: flex;
+        gap: 6px;
+        background: var(--bg);
+        padding: 4px;
+        border-radius: 12px;
+        margin: 14px 0 6px;
+      }
+      .auth-tabs button {
+        flex: 1;
+        padding: 9px 12px;
+        border-radius: 9px;
+        font-weight: 600;
+        color: var(--muted);
+      }
+      .auth-tabs button.on {
+        background: #fff;
+        color: var(--ink);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      .auth-f label {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 12px 0 4px;
+      }
+      .auth-f input {
+        width: 100%;
+        padding: 11px 12px;
+        border: 1.5px solid #e1e1e7;
+        border-radius: 10px;
+        font: inherit;
+        background: #fff;
+      }
+      .auth-f input:focus {
+        outline: none;
+        border-color: var(--green);
+        box-shadow: 0 0 0 3px var(--green-soft);
+      }
+      .auth-err {
+        color: #be123c;
+        font-size: 13px;
+        min-height: 18px;
+        margin-top: 10px;
+      }
+      .auth-f .btn-green {
+        width: 100%;
+        margin-top: 6px;
+        padding: 12px;
+        border: 0;
+      }
+
+      /* --- Upcoming batches: card grid --- */
+      .bl-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+        gap: 20px;
+        align-items: stretch;
+      }
+      .bl-grid .bl-row {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding: 20px;
+        height: 100%;
+      }
+      .bl-grid .bl-date {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 8px;
+        align-self: flex-start;
+        padding: 8px 16px;
+        border-radius: 12px;
+        text-align: left;
+      }
+      .bl-grid .bl-date b {
+        display: inline;
+        font-size: 26px;
+      }
+      .bl-grid .bl-date small {
+        display: inline;
+      }
+      .bl-grid .bl-row .row[style*="max-width"] {
+        max-width: none !important;
+      }
+      .bl-grid .bl-act {
+        justify-content: flex-start;
+        margin-top: auto;
+      }
+      .bl-grid .bl-act .btn-line {
+        padding: 8px 12px;
+        font-size: 13.5px;
+      }
+      .bl-grid .bl-row h2 {
+        font-size: 16px;
+        overflow-wrap: anywhere;
+      }
+
+      /* --- Roadmap: no step numbers / connector line --- */
+      .road .rstep {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .road .rstep:not(:last-child):before {
+        display: none;
+      }
+      .road .rnum {
+        display: none;
+      }
+      .road .rstep.done .card {
+        border-color: #bdebd2;
+      }
+
+      /* --- Pagination --- */
+      .pager {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        margin: 24px 0 8px;
+      }
+      .pager .pg-info {
+        flex-basis: 100%;
+        text-align: center;
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+      .pager button {
+        min-width: 38px;
+        height: 38px;
+        padding: 0 12px;
+        border-radius: 10px;
+        border: 1px solid #e2e2e8;
+        background: #fff;
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--ink-2);
+      }
+      .pager button:hover:not(:disabled):not(.on) {
+        border-color: var(--brand);
+        color: var(--brand-2);
+      }
+      .pager button.on {
+        background: var(--brand);
+        border-color: var(--brand);
+        color: #fff;
+      }
+      .pager button:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .pager .gap {
+        padding: 0 4px;
+        color: var(--muted);
+      }
+      .q[hidden],
+      .pq-list li[hidden] {
+        display: none !important;
+      }
+
+      /* --- hub cards (company / package) --- */
+      .rgrid {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+      }
+      .pk-card .pk-amt {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .pk-card .pk-ic {
+        width: 44px;
+        height: 44px;
+        border-radius: 13px;
+        display: grid;
+        place-items: center;
+        background: var(--brand-soft);
+        color: var(--brand-2);
+        line-height: 0;
+      }
+
+      /* --- practice sheets: expandable question lists --- */
+      .sitem.pq {
+        flex-wrap: wrap;
+      }
+      .sitem.pq .st {
+        flex: 1 1 200px;
+      }
+      .pq-toggle {
+        padding: 6px 12px;
+        border-radius: 9px;
+        border: 1px solid #e2e2e8;
+        background: #fff;
+        color: var(--brand-2);
+        font-weight: 500;
+        font-size: 13px;
+        white-space: nowrap;
+      }
+      .pq-toggle:hover {
+        border-color: var(--brand);
+      }
+      .pq-list {
+        flex: 1 1 100%;
+        margin: 6px 0 2px;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 8px;
+        counter-reset: pq;
+      }
+      .pq-list[hidden] {
+        display: none;
+      }
+      .pq-list li {
+        counter-increment: pq;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px 12px 10px 42px;
+        position: relative;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+      }
+      .pq-list li:before {
+        content: counter(pq);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 22px;
+        height: 22px;
+        border-radius: 7px;
+        background: var(--bg);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 600;
+        display: grid;
+        place-items: center;
+      }
+      .pq-list details summary {
+        cursor: pointer;
+        color: var(--brand-2);
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 4px;
+      }
+      .pq-list details div {
+        margin-top: 6px;
+        padding: 10px 12px;
+        background: #fafafc;
+        border-left: 3px solid var(--brand);
+        border-radius: 8px;
+        color: var(--ink-2);
+        white-space: pre-wrap;
+      }
+
+      /* --- general responsiveness --- */
+      img,
+      video {
+        max-width: 100%;
+      }
+      table {
+        max-width: 100%;
+      }
+      .page-head > div {
+        min-width: 0;
+      }
+      .h1 {
+        overflow-wrap: anywhere;
+      }
+      @media (max-width: 920px) {
+        .top-in {
+          padding: 0 16px;
+        }
+      }
+      @media (max-width: 640px) {
+        .top-in {
+          gap: 8px;
+          padding: 0 12px;
+        }
+        .btn-green {
+          padding: 8px 12px;
+          font-size: 13px;
+        }
+        .logo-mark {
+          width: 34px;
+          height: 34px;
+        }
+        .logo-txt {
+          font-size: 20px;
+        }
+        .pn-btn {
+          padding: 8px 12px;
+          font-size: 13px;
+        }
+        .ph-co {
+          gap: 12px;
+        }
+        .colo.xxl {
+          --s: 44px;
+        }
+        .pager button {
+          min-width: 34px;
+          height: 34px;
+          padding: 0 9px;
+        }
+        .q {
+          padding: 14px;
+        }
+        .q-top {
+          gap: 10px;
+        }
+        .bl-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      @media (max-width: 420px) {
+        .logo-txt {
+          display: none;
+        }
+        .cswitch .lbl {
+          max-width: 70px;
+        }
+        .pn-btn {
+          flex: 1 1 auto;
+          justify-content: center;
+        }
+        .page-head {
+          align-items: flex-start;
+        }
+      }
+
+      .save-menu summary::-webkit-details-marker { display: none; }
+      .save-menu summary { list-style: none; }
+      .save-opt:hover { background: var(--bg) !important; }
+      .ps-card > summary { outline: none; }
+      .ps-card[open] > summary { margin-bottom: 4px; border-bottom: 1px dashed var(--line); padding-bottom: 12px; }
+      .q-actions .tick { flex-shrink: 0; }
+
+    
+      .logo-mark img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block !important;
+      }
+      body[data-page="hub"] .logo-mark {
+        display: grid !important;
+        background: transparent !important;
+      }
+      body[data-page="hub"] .logo-mark img {
+        display: block !important;
+      }

@@ -1,0 +1,32 @@
+/* Saved questions (Last-Minute Revision / 7-Day Job Prep) + sign-up wall on long lists */
+.plan-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+.saved-empty { text-align: center; padding: 44px 24px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.saved-empty h2 { font-size: 20px; font-weight: 600; }
+.saved-empty p { max-width: 460px; }
+.saved-empty .se-small { font-size: 13px; }
+.saved-empty .se-ic { width: 60px; height: 60px; border-radius: 18px; display: grid; place-items: center; background: var(--brand-soft); color: var(--brand-2); }
+.saved-empty .btn-green { margin-top: 8px; display: inline-flex; padding: 10px 20px; }
+.saved-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 0 2px 14px; font-size: 13px; }
+.saved-rm { padding: 5px 11px; border-radius: 9px; border: 1px solid #f1c5c8; background: #fff; color: var(--red); font-size: 12.5px; font-weight: 500; }
+.saved-rm:hover { background: #fff1f2; }
+.saved-act { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.saved-stack { display: flex; flex-direction: column; gap: 10px; }
+.rev details p { white-space: pre-wrap; }
+.sitem.plan-q { align-items: flex-start; }
+.sitem.plan-q .tick { margin-top: 2px; }
+.sitem.plan-q .pq-t { font-weight: 500; display: block; }
+.sitem.plan-q.done .st { text-decoration: none; color: inherit; }
+.sitem.plan-q.done .pq-t { text-decoration: line-through; color: var(--muted); }
+.sitem.plan-q details summary { cursor: pointer; color: var(--brand-2); font-size: 13px; font-weight: 500; margin-top: 4px; }
+.sitem.plan-q .pq-a { margin-top: 6px; padding: 10px 12px; background: #fff; border-left: 3px solid var(--brand); border-radius: 8px; color: var(--ink-2); white-space: pre-wrap; }
+.save-opt.on { color: var(--green-ink); font-weight: 600; }
+
+/* sign-up wall: guests see the first 20 questions, the rest is blurred */
+.lock-cta { position: sticky; top: 92px; z-index: 20; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--brand); border-radius: 16px; padding: 16px 18px; box-shadow: var(--shadow); margin-bottom: 14px; }
+.lock-cta[hidden], body.is-auth .lock-cta { display: none; }
+.lock-cta .lc-ic { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--brand-soft); color: var(--brand-2); }
+.lock-cta .lc-t { flex: 1 1 220px; display: flex; flex-direction: column; gap: 2px; }
+.lock-cta .lc-t span { font-size: 13px; }
+.lock-cta .lc-b { display: flex; gap: 8px; }
+.lock-cta .lc-b button { padding: 9px 18px; border-radius: 10px; }
+body:not(.is-auth) .q[data-locked] { filter: blur(7px); pointer-events: none; user-select: none; opacity: 0.9; }
